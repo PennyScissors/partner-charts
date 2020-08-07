@@ -1,0 +1,6 @@
+questions:
+- variable: ingressController.installCRDs
+  default: false
+  description: "Install CRDs"
+  label: ingressController.installCRDs
+  type: boolean
