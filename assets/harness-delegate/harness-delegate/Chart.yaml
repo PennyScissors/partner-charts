@@ -1,0 +1,18 @@
+annotations:
+  catalog.cattle.io/certified: partner
+  catalog.cattle.io/namespace: harness-delegate
+  catalog.cattle.io/release-name: harness-delegate
+apiVersion: v1
+description: Deploys harness delegate
+home: https://harness.io/
+icon: https://harness.io/wp-content/uploads/2019/07/logo-black.png
+keywords:
+- harness.io
+- harness delegate
+maintainers:
+- email: anshul@harness.io
+  name: anshul
+- email: puneet.saraswat@harness.io
+  name: puneet saraswat
+name: harness-delegate
+version: 1.0.200
