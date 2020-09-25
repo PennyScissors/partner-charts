@@ -253,6 +253,33 @@ entries:
     urls:
     - assets/haproxy/haproxy-1.4.300.tgz
     version: 1.4.300
+  hpe-csi-driver:
+  - annotations:
+      catalog.cattle.io/certified: partner
+      catalog.cattle.io/release-name: hpe-csi-driver
+    apiVersion: v1
+    appVersion: 1.3.0
+    created: "2020-09-25T21:19:35.872285696Z"
+    description: A Helm chart for installing the HPE CSI Driver for Kubernetes
+    digest: 3e9dcd5b574bc1db810fb36f8a832d9c791161ceb6a0c52a12e62e2cb7533c24
+    home: https://hpe.com/storage/containers
+    icon: https://raw.githubusercontent.com/hpe-storage/co-deployments/master/docs/assets/hpedev.png
+    keywords:
+    - HPE
+    - Storage
+    - StorageClass
+    - CentOS
+    - Ubuntu
+    - RHEL
+    maintainers:
+    - email: hpe-containers-dev@hpe.com
+      name: shivamerla
+    name: hpe-csi-driver
+    sources:
+    - https://scod.hpedev.io/csi_driver
+    urls:
+    - assets/hpe-csi-driver/hpe-csi-driver-1.3.000.tgz
+    version: 1.3.000
   hpe-flexvolume-driver:
   - annotations:
       catalog.cattle.io/certified: partner
@@ -404,4 +431,4 @@ entries:
     urls:
     - assets/sysdig/sysdig-1.9.200.tgz
     version: 1.9.200
-generated: "2020-09-23T20:05:24.293512565Z"
+generated: "2020-09-25T21:19:35.871417579Z"
