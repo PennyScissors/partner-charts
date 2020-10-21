@@ -6,7 +6,7 @@ entries:
       catalog.cattle.io/release-name: artifactory-ha
     apiVersion: v1
     appVersion: 7.6.3
-    created: "2020-09-23T20:05:24.305363825Z"
+    created: "2020-10-21T21:28:15.637970575Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -14,7 +14,7 @@ entries:
       version: 8.7.3
     description: Universal Repository Manager supporting all major packaging formats,
       build tools and CI servers.
-    digest: e46074146aca56fc4a2059402218190135d8b8fe3657fe70d8c7e37799107ec7
+    digest: f4f01322a0ebf96176752ca837b6520795ba58a7da2703ee37b1fce748712185
     home: https://www.jfrog.com/artifactory/
     icon: https://raw.githubusercontent.com/jfrog/charts/master/stable/artifactory-ha/logo/artifactory-logo.png
     keywords:
@@ -45,13 +45,13 @@ entries:
       catalog.cattle.io/release-name: artifactory-jcr
     apiVersion: v1
     appVersion: 7.6.3
-    created: "2020-09-22T21:29:07.804788708Z"
+    created: "2020-10-21T21:28:15.649249488Z"
     dependencies:
     - name: artifactory
       repository: https://charts.jfrog.io/
       version: 10.0.12
     description: JFrog Container Registry
-    digest: fdc94c381daa31e30a9552fa4eb68230660ab50c718c1eb9374da345fc3143f3
+    digest: 5f951f8757f97c1a4ae9bf1d9fe9d097c45988e6cbfe7da5bd05dd0b59932807
     home: https://jfrog.com/container-registry/
     icon: https://raw.githubusercontent.com/jfrog/charts/master/stable/artifactory-jcr/logo/jcr-logo.png
     keywords:
@@ -86,10 +86,10 @@ entries:
       catalog.cattle.io/release-name: citrix-adc-istio-ingress-gateway
     apiVersion: v1
     appVersion: 1.2.1
-    created: "2020-09-22T21:29:07.805585114Z"
+    created: "2020-10-21T21:28:15.650091689Z"
     description: A Helm chart for Citrix ADC as Ingress Gateway installation in Istio
       Service Mesh on Kubernetes platform
-    digest: c56447534d49d9a6c3e6d60065d9872d78b401d845faf98bdc5c14ecfb3440c0
+    digest: b2bf208ba6c25be9b2b1c9534619868d1a4d4a47148bb75a140ef78534b45996
     home: https://www.citrix.com
     icon: https://raw.githubusercontent.com/citrix/citrix-helm-charts/gh-pages/icon.png
     maintainers:
@@ -109,10 +109,10 @@ entries:
       catalog.cattle.io/release-name: citrix-cpx-with-ingress-controller
     apiVersion: v1
     appVersion: 1.8.28
-    created: "2020-09-22T21:29:07.806756923Z"
+    created: "2020-10-21T21:28:15.65122199Z"
     description: A Helm chart for Citrix ADC CPX with Citrix ingress Controller running
       as sidecar.
-    digest: c1657a337962c943ffcb70565546d96c6bd48492316aaf24242da113c7128bb3
+    digest: 9df50b253ec55e8d164d281d49b317c5bb6c0d4636a89c642f20b11513fe7baa
     home: https://www.citrix.com
     icon: https://raw.githubusercontent.com/citrix/citrix-helm-charts/gh-pages/icon.png
     maintainers:
@@ -156,9 +156,9 @@ entries:
       catalog.cattle.io/release-name: cockroachdb
     apiVersion: v1
     appVersion: 20.1.3
-    created: "2020-09-22T21:29:07.808549537Z"
+    created: "2020-10-21T21:28:15.652935692Z"
     description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
-    digest: 1ff49b8976fd1f4d8521d4543bcbfb72f0334a20a6f5fe131e60a4cdcd2f476d
+    digest: 008f6ee87fdfa351126f4cb43a92c48a0ca3439bdeecb47f6584148f3b46f06c
     home: https://www.cockroachlabs.com
     icon: https://raw.githubusercontent.com/cockroachdb/cockroach/master/docs/media/cockroach_db.png
     maintainers:
@@ -176,14 +176,14 @@ entries:
       catalog.cattle.io/release-name: datadog
     apiVersion: v1
     appVersion: "7"
-    created: "2020-09-22T21:29:07.815201888Z"
+    created: "2020-10-21T21:28:15.658270799Z"
     dependencies:
     - condition: datadog.kubeStateMetricsEnabled
       name: kube-state-metrics
       repository: https://kubernetes-charts.storage.googleapis.com/
       version: =2.8.11
     description: Datadog Agent
-    digest: 25ea2e2234e7a334707dfd8719f5719a315c393f55d87baff140d7764a672fa8
+    digest: 338844a005de1ddbcd1a052a5d94fb230acbc9f0b58afc67366604d49811bde8
     home: https://www.datadoghq.com
     icon: https://datadog-live.imgix.net/img/dd_logo_70x75.png
     keywords:
@@ -206,9 +206,9 @@ entries:
       catalog.cattle.io/release-name: dynatrace-oneagent-operator
     apiVersion: v2
     appVersion: 0.8.0
-    created: "2020-09-22T21:29:07.8168072Z"
+    created: "2020-10-21T21:28:15.660259001Z"
     description: The Dynatrace OneAgent Operator Helm chart for Kubernetes and Openshift
-    digest: b251b15d3edb2e79ab3bf801025f5ca84149fd2f478e12b00f40abcabab4d0d7
+    digest: 8fefbb723e2f29f7c32997267fb8f47395ca9857fbe8f7345d2a7c4fd74ce0c4
     home: https://www.dynatrace.com/
     icon: https://assets.dynatrace.com/global/resources/Signet_Logo_RGB_CP_512x512px.png
     maintainers:
@@ -231,9 +231,9 @@ entries:
       catalog.cattle.io/release-name: haproxy
     apiVersion: v1
     appVersion: 1.4.6
-    created: "2020-09-22T21:29:07.818267611Z"
+    created: "2020-10-21T21:28:15.661639703Z"
     description: A Helm chart for HAProxy Kubernetes Ingress Controller
-    digest: cc88fca9a4c6897a8b4b13738b9dfe7bd7a1dbeac410cbf21b36adb2202688ae
+    digest: ddfdbe5654c99d9e81417c6af2c192b8499443a404e8dde6e93f75b4731c1998
     home: https://github.com/haproxytech/helm-charts/tree/master/kubernetes-ingress
     icon: http://www.haproxy.org/img/HAProxyCommunityEdition_60px.png
     keywords:
@@ -259,9 +259,9 @@ entries:
       catalog.cattle.io/release-name: hpe-csi-driver
     apiVersion: v1
     appVersion: 1.3.0
-    created: "2020-09-25T21:19:35.872285696Z"
+    created: "2020-10-21T21:28:15.662419103Z"
     description: A Helm chart for installing the HPE CSI Driver for Kubernetes
-    digest: 3e9dcd5b574bc1db810fb36f8a832d9c791161ceb6a0c52a12e62e2cb7533c24
+    digest: 7b6af2df5da6aeb214e50a5a16fa947d460bf0c1f8d1bcb7c7e982fc86d7342b
     home: https://hpe.com/storage/containers
     icon: https://raw.githubusercontent.com/hpe-storage/co-deployments/master/docs/assets/hpedev.png
     keywords:
@@ -286,10 +286,10 @@ entries:
       catalog.cattle.io/release-name: hpe-flexvolume-driver
     apiVersion: v1
     appVersion: "3.1"
-    created: "2020-09-22T21:29:07.81932802Z"
+    created: "2020-10-21T21:28:15.663401605Z"
     description: A Helm chart for installing the HPE Volume Driver for Kubernetes
       FlexVolume plugin
-    digest: e56eb1ab69c71dc7225ea2e63585f1e8758dc5f675728e4b75e91da717ff0586
+    digest: b8ad1d1b8ab7a40c3a0b8a57b2bbc78f7d5235c49dd13d887c9ce52e59978642
     home: https://hpe.com/storage/containers
     icon: https://raw.githubusercontent.com/hpe-storage/co-deployments/master/docs/assets/hpedev.png
     keywords:
@@ -314,9 +314,9 @@ entries:
       catalog.cattle.io/release-name: instana-agent
     apiVersion: v1
     appVersion: "1.1"
-    created: "2020-09-22T21:29:07.820456828Z"
+    created: "2020-10-21T21:28:15.664504106Z"
     description: Instana Agent for Kubernetes
-    digest: 1b08c4ab2e7cf7529740dfefbced72df5fd1796e3ecbd4fbcdd6359022560e73
+    digest: 262d9532664353a8f4feefcb64039543f410814bdb16f92bb1b70afab544ae1c
     home: https://www.instana.com/
     icon: https://instana-management-assets.s3-eu-west-1.amazonaws.com/stan-logo-2020.png
     maintainers:
@@ -346,9 +346,9 @@ entries:
       catalog.cattle.io/release-name: openebs
     apiVersion: v1
     appVersion: 1.12.0
-    created: "2020-09-22T21:29:07.82197754Z"
+    created: "2020-10-21T21:28:15.666099308Z"
     description: Containerized Storage for Containers
-    digest: c912789c33b8926c8cfa3b83ff14b46bfc02a5fa31dda0f5609456fba0739ee5
+    digest: 73db97210da1e3263cde3b40b958a3c888de21f92bfcf056f201780656eab4f5
     home: http://www.openebs.io/
     icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/openebs/icon/color/openebs-icon-color.png
     keywords:
@@ -373,10 +373,10 @@ entries:
       catalog.cattle.io/release-name: portshift-operator
     apiVersion: v1
     appVersion: v0.1.3
-    created: "2020-09-22T21:29:07.822425243Z"
+    created: "2020-10-21T21:28:15.666569008Z"
     description: |
       Portshift cloud-native security platform is an agentless security solution for containerized applications
-    digest: 4d51247494d77cfea0e42b964adec6b7672c896247423c980324b45a0f1f4719
+    digest: 1b91a2455fcfc923a2e5accdc188f8b1087abb9f627aac9c60871bcf9ec15b0e
     home: https://www.portshift.io/
     icon: https://www.portshift.io/wp-content/uploads/2019/10/portshift-logo-68.png
     keywords:
@@ -401,9 +401,9 @@ entries:
       catalog.cattle.io/release-name: sysdig
     apiVersion: v1
     appVersion: 10.3.0
-    created: "2020-09-22T21:29:07.824092456Z"
+    created: "2020-10-21T21:28:15.66827391Z"
     description: Sysdig Monitor and Secure agent
-    digest: 9c5890057763998718eb2bb11f4336b2dd59c56156358cb6f8b898b12d9d0035
+    digest: 5e9824c15068bebdab2bb93c8b308d0f04d6599594765d138505eb0c5e288077
     home: https://www.sysdig.com/
     icon: https://478h5m1yrfsa3bbe262u7muv-wpengine.netdna-ssl.com/wp-content/uploads/2019/02/Shovel_600px.png
     keywords:
@@ -431,4 +431,4 @@ entries:
     urls:
     - assets/sysdig/sysdig-1.9.200.tgz
     version: 1.9.200
-generated: "2020-09-25T21:19:35.871417579Z"
+generated: "2020-10-21T21:28:15.626087061Z"
